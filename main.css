@@ -51,7 +51,7 @@ input.form-control{
 }
 
 button.round-btn{
-    margin: 15px 5px;
+    margin: 15px 5px auto;
     height: 45px;
     width: auto;
     padding: 0 35px;
@@ -86,15 +86,3 @@ button.vazado:hover{
 button.colorido:hover{
     color: white;
 }
-
-/* button.vazado:hover{
-    background-color: var(--corEscuraHover) !important;
-    border: var(--corEscuraHover);
-    color: white;
-}
-
-button.colorido:hover{
-    background-color: var(--corEscuraHover) !important;
-    border: var(--corEscuraHover);
-    color: white;
-} */
