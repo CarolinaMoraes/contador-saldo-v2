@@ -1,0 +1,91 @@
+:root{
+    --corEscura: #02AAB0;
+    --corEscuraHover: #025153;
+}
+
+*{
+    color: white;
+}
+
+.painel h3{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.painel h4{
+    margin: 0;
+    font-weight: 400;
+}
+
+.box-descontos h4{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1#saldo{
+    margin: 0;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+#completas, #meias{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.wrapper{
+    display: block;
+    text-align: center;
+}
+
+.painel{
+    margin: 50px auto 0;
+}
+
+.qtd-viagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ticket{
+    width: 50px;
+}
+
+.btn-ticket:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 800px){
+    .wrapper{
+        display: flex;
+        align-items: center;
+        height: 75vh;
+    }
+
+    h1#saldo{
+        font-size: 8rem;
+    }
+
+    .esquerdo{
+        width: 60%;
+    }
+
+    .qtd-numeros{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    .qtd-numeros p{
+        align-self: center; 
+    }
+
+    button.branco{
+        margin-left: -10px;
+    }
+
+    .qtd-viagens{
+        display: block;
+    }
+    
+}

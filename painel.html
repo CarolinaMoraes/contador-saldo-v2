@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#02AAB0">
+    <title>Prazo de recarga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="painel.css">
+    <script src="painel.js" async></script>
+</head>
+
+<body>
+    <div class="wrapper container">
+        <div class="esquerdo">
+            <div class="painel">
+                <h3>Saldo Atual</h3>
+                <h1 id="saldo">00,00</h1>
+                <h4 id="modalidade">Modalidade</h4>
+            </div>
+
+            <button id="editar" class="round-btn btn branco">editar</button>
+        </div>
+
+        <div class="direito">
+            <div id="qtd-viagens" class="qtd-viagens">
+                <div class="qtd-numeros">
+                    <h5 id="completas">0</h5>
+                    <p>Viagens completas</p>
+                </div>
+
+                <div class="qtd-numeros">
+                    <h5 id="meias">0</h5>
+                    <p>meia-viagem</p>
+                </div>
+            </div>
+
+            <div class="box-descontos">
+                <h4>Descontar</h4>
+
+                <div id="dscnt-um" class="btn btn-ticket">
+                    <img class="ticket" src="media/ticket.png" alt="um bilhete de trem">
+                    <p class="bilhete-texto-inteira">1 bilhete</p>
+                </div>
+
+                <div id="dscnt-dois" class="btn btn-ticket">
+                    <img class="ticket" src="media/dois-tickets.png" alt="dois bilhetes de trem">
+                    <p class="bilhete-texto-meia">2 bilhetes</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
