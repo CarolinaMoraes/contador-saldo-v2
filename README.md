@@ -12,7 +12,7 @@ para inserir o seu valor de crédito atual. Abaixo desse campo há dois botões,
 cada um representa uma categoria de crédito do bilhete único sendo eles: estudante e comum.
 
   Na [segunda tela](https://imgur.com/oy5AaSB) temos um painel de gerenciamento dos créditos, nesse painel podemos:
-- Consultar nossos crédito atual
+- Consultar nosso saldo atual
 - Consultar o número de viagens possíveis
 - Editar o saldo atual, que retornará para a primeira página
 - Descontar 1 ou 2 bilhetes
